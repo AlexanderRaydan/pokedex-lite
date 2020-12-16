@@ -1,0 +1,92 @@
+$boder_color: #91c5e4;
+$text_color: #0a2e42;
+$font_family: Arial, Helvetica, sans-serif ;
+
+.container{
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-direction: column;
+    font-family: $font_family;
+    border: solid $boder_color 2px;
+    border-radius: 10px;
+    padding: 4%;
+}
+
+a {
+
+    text-decoration: none;
+    color:$text_color;         
+
+}
+
+.container-box{
+    padding: 2%;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: solid $boder_color 2px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.container-pokemon{
+
+    padding: 2%;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: solid $boder_color 2px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.container-edge{
+
+    height: 90%;
+    width: 200px;
+    margin: 5px;
+    align-items: center;
+    border: solid $boder_color 2px;
+    border-radius: 5px;
+    background-color: white;
+    color: $text_color;
+}
+
+.container-center{
+
+    height: 90%;
+    width: 100%;
+    margin: 10px;
+    align-items: center;
+    border: solid $boder_color 2px;
+    border-radius: 5px;
+    background-color: white;
+    color: $text_color;
+    align-content: center;
+}
+
+.container-text{
+
+    margin-left: 5px;
+}
+
+
+.login-botton{
+
+    width: 200px;
+    height: 30px;
+    background-color: #91c5e4;
+    border: solid $boder_color 2px;
+    border-radius: 5px;
+    font-family: $font_family;
+
+}

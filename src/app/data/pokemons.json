@@ -1,0 +1,48 @@
+{ 
+    "pokemons":[
+        {
+            "id": "2",
+            "Uid": "NDWwHaxhmpSs8d64QE2qImakEq23",
+            "name": "raychu",
+            "type":"Electric",
+            "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/026.png",
+            "level": 10,
+            "evolution_level": 20,
+            "evolution_to":"8",
+            "abilities": ["master Impact trueno"]
+        },   
+        {
+            "id": "1",
+            "name": "pikachu",
+            "Uid": "NDWwHaxhmpSs8d64QE2qImakEq23",
+            "type":"Electric",
+            "image": "https://pokemon.gishan.cc/static/i/p/pikachu.jpg",
+            "level": 15,
+            "evolution_level": 20,
+            "evolution_to": "2",
+            "abilities": ["Impact trueno"]
+        },
+        {
+            "id":"3",
+            "name": "squirtle",
+            "Uid": "NDWwHaxhmpSs8d64QE2qImakEq23",
+            "type": "Electric",
+            "image": "https://www.latercera.com/resizer/Vgxbx1zLxld_iwt567hS50C3ngo=/900x600/smart/arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/VYY2DHHL2VD55K7D52TS4ZSN24.jpg",
+            "evolution_level": 20,
+            "level": 5,
+            "evolution_to": "4",
+            "abilities": ["Rain Dish"]
+        },
+        {
+            "id":"4",
+            "Uid": "uu",
+            "name": "Blatoise",
+            "type": "Electric",
+            "level": 18,
+            "image": "https://i.pinimg.com/originals/30/bc/3b/30bc3b60fa9fc9588390f45c4af1680c.png",
+            "evolution_level": 20,
+            "evolution_to": "4",
+            "abilities": ["master Rain Dish"]
+        }
+    ]
+}

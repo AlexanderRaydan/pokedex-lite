@@ -1,0 +1,26 @@
+
+<div class="container">
+    <button class="login-botton" (click)= "logoutButton()" >logout !</button>
+
+    <div *ngFor="let pokemon of pokemons" class="container-pokemon">
+        <div class="container-edge">
+            <p class="container-text">{{pokemon.type}}</p>
+        </div>
+        <div class="container-center">
+            <p class="container-text" >{{pokemon.name}}</p>
+        </div>  
+        <div class="container-edge">
+            <p class="container-text">{{pokemon.level}}</p>
+        </div>
+        <div class="container-edge">
+            <a [routerLink]="['/pokemon/detail/' , pokemon.id ]" routerLinkActive="active" >
+                <p class="container-text">Detail</p>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+
+
+

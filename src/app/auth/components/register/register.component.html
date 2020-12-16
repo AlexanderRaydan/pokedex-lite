@@ -1,0 +1,11 @@
+<form [formGroup]="form" (ngSubmit)="register($event)" >
+    <div class="container">
+        <h2> Register !</h2>
+        <input placeholder="email" type="email" formControlName="email" class="container-input"/>
+        <input placeholder="Password" type="password"  formControlName="password" class="container-input"/>
+        <input type="password" class="container-input"/>
+        <button [disabled]="form.invalid" class="login-botton" type="submit">Supmit !</button>
+    </div>   
+</form>
+
+

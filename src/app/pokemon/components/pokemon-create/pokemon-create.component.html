@@ -1,0 +1,15 @@
+<form [formGroup]="form" (ngSubmit)="create($event)" >
+    <div class="container">
+        <h2> Create a Pokemon !</h2>
+        <input placeholder="Name" type="text" formControlName="name" class="container-input"/>
+        <input placeholder="Type" type="text"  formControlName="type" class="container-input"/>
+        <input placeholder="Level" type="text"  formControlName="level" class="container-input"/>
+        <input placeholder="Evolution level" type="text"  formControlName="evolution_level" class="container-input"/>
+        <input placeholder="Image" type="text"  formControlName="image" class="container-input"/>
+        <input placeholder="Evolution to" type="text"  formControlName="evolution_to" class="container-input"/>
+        <input placeholder="Abilities" type="text"  formControlName="abilities" class="container-input"/>
+        <button [disabled]="form.invalid" class="create-botton" type="submit">Supmit !</button>
+    </div>   
+</form>
+
+
